@@ -140,4 +140,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Juego/Scenes/PantallaInicio.unity
     guid: 465682a789b8d5f4098f2c4bc93a0484
+  - enabled: 1
+    path: Assets/Juego/Scenes/Instrucciones.unity
+    guid: 736ecf15b69c3894fa2fac9a1fed7637
+  - enabled: 1
+    path: Assets/Juego/Scenes/Creditos.unity
+    guid: 53222547ccecead40a441dbfa4fdc07f
+  - enabled: 1
+    path: Assets/Juego/Scenes/Nivel 1.unity
+    guid: a6fbb9ebbda760e419dd6b4666526d78
+  - enabled: 1
+    path: Assets/Juego/Scenes/Win.unity
+    guid: b501548184820764689fa439d52738e9
+  - enabled: 1
+    path: Assets/Juego/Scenes/Game Over.unity
+    guid: d309cedd676172943ba5fd74697a83f2
   m_configObjects: {}
