@@ -26,3 +26,9 @@ La historia del juego se desarrolla cuando los jugadores asumen el papel de un o
 5. **La batalla final**: A medida que el conflicto se acercaba a su clímax, Ironhold se erigió como un símbolo de resiliencia y desafío contra la tiranía. En un enfrentamiento culminante, los jugadores deben reunir sus fuerzas, desplegar defensas estratégicamente y repeler el ataque final del enemigo para asegurar la victoria y asegurar la supervivencia de Ironhold y sus defensores.
 
 A lo largo del juego, los jugadores experimentarán la lucha épica por la supervivencia, enfrentándose a oleadas de enemigos cada vez más desafiantes mientras administran recursos limitados y desbloquean poderosas mejoras para cambiar el rumbo de la batalla. Con el destino de Ironhold en juego, sólo los tácticos más hábiles saldrán victoriosos en este mundo devastado por la guerra.
+
+# Modificaciones Entrega 2
+- Creacion e implementacion de parte grafica: Fondos y Títulos - Juan Esteban Medina
+- Implementacion de botones y programacion de la navegacion - Katheryn Ramirez Chima y Juan Esteban Medina
+- Actualizacion del diagrama de clases - Katheryn Ramirez Chima
+- Actualizacion del README: Juan Jose Becerra
