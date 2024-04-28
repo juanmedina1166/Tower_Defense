@@ -368,6 +368,65 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2144827618}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6359008
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6359010}
+  - component: {fileID: 6359009}
+  m_Layer: 0
+  m_Name: Ruta 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &6359009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6359008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b81dc1a6e4b189d4bae2faab8a2a1a25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CycleOption: 2
+  LoopInitialMovementDirection: 0
+  PathElements:
+  - PathElementPosition: {x: 0.42363358, y: 1.510807, z: 0}
+    Delay: 0
+  - PathElementPosition: {x: 13.075011, y: 1.3585472, z: 0}
+    Delay: 0
+  - PathElementPosition: {x: 20.933575, y: 1.3821802, z: 0}
+    Delay: 0
+  ReferenceMMPath: {fileID: 0}
+  AbsoluteReferencePath: 0
+  MinDistanceToGoal: 0.1
+  LockHandlesOnXAxis: 0
+  LockHandlesOnYAxis: 0
+  LockHandlesOnZAxis: 0
+--- !u!4 &6359010
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6359008}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1141230351}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &7888212
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6979,18 +7038,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data:
   - tiempoSalida: 0
-    cantidad: 2
+    cantidad: 3
     prefab: {fileID: 1498750440386690, guid: d59a856dda35f714faf0f1e052666033, type: 3}
     ruta: {fileID: 1509456631}
-  - tiempoSalida: 10
+  - tiempoSalida: 7
     cantidad: 3
     prefab: {fileID: 1561694053617324, guid: 2a2a535b3c27a86439a7f760532fad45, type: 3}
-    ruta: {fileID: 1509456631}
-  - tiempoSalida: 25
+    ruta: {fileID: 1675283314}
+  - tiempoSalida: 15
     cantidad: 5
     prefab: {fileID: 6311937572946013165, guid: ec4bf1d61dc1a2246bf027cb9fb8c481,
       type: 3}
-    ruta: {fileID: 1509456631}
+    ruta: {fileID: 6359009}
   tiempo_entre_olas: 20
   PuedeAgregarButton: 0
 --- !u!4 &1002417115 stripped
@@ -7688,8 +7747,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1798043625
   m_SortingLayer: 1
-  m_SortingOrder: 7
-  m_Sprite: {fileID: 21300000, guid: ec397591b46c1f24fa24119069170f8f, type: 3}
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: c23c68af81763c8418ffeae306ec3096, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7791,6 +7850,7 @@ Transform:
   m_Children:
   - {fileID: 1509456630}
   - {fileID: 1675283315}
+  - {fileID: 6359010}
   m_Father: {fileID: 71771402}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10562,17 +10622,17 @@ MonoBehaviour:
   CycleOption: 2
   LoopInitialMovementDirection: 0
   PathElements:
-  - PathElementPosition: {x: -0.10910988, y: 6.9003706, z: 0}
+  - PathElementPosition: {x: 6.20331, y: 13.595274, z: 0}
     Delay: 0
-  - PathElementPosition: {x: 6.175167, y: 6.8757887, z: 0}
+  - PathElementPosition: {x: 10.290694, y: 12.267471, z: 0}
     Delay: 0
-  - PathElementPosition: {x: 6.213827, y: 12.335327, z: 0}
+  - PathElementPosition: {x: 13.757379, y: 11.063115, z: 0}
     Delay: 0
-  - PathElementPosition: {x: 16.397348, y: 12.196451, z: 0}
+  - PathElementPosition: {x: 17.907316, y: 9.625608, z: 0}
     Delay: 0
-  - PathElementPosition: {x: 16.461248, y: 6.4874353, z: 0}
+  - PathElementPosition: {x: 20.34143, y: 8.454628, z: 0}
     Delay: 0
-  - PathElementPosition: {x: 20.375275, y: 6.5097027, z: 0}
+  - PathElementPosition: {x: 21.185669, y: 6.5097027, z: 0}
     Delay: 0
   ReferenceMMPath: {fileID: 0}
   AbsoluteReferencePath: 0
@@ -11081,12 +11141,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data:
   - tiempoSalida: 0
-    cantidad: 3
+    cantidad: 7
     prefab: {fileID: 6311937572946013165, guid: ec4bf1d61dc1a2246bf027cb9fb8c481,
       type: 3}
-    ruta: {fileID: 1675283314}
+    ruta: {fileID: 6359009}
   - tiempoSalida: 15
-    cantidad: 4
+    cantidad: 5
     prefab: {fileID: 1561694053617324, guid: 2a2a535b3c27a86439a7f760532fad45, type: 3}
     ruta: {fileID: 1675283314}
   tiempo_entre_olas: 20
@@ -11471,17 +11531,11 @@ MonoBehaviour:
   CycleOption: 2
   LoopInitialMovementDirection: 0
   PathElements:
-  - PathElementPosition: {x: -0.010234833, y: 6.096033, z: 0}
+  - PathElementPosition: {x: 7.4801426, y: -1.250946, z: 0}
     Delay: 0
-  - PathElementPosition: {x: 6.2471085, y: 6.056039, z: 0}
+  - PathElementPosition: {x: 19.752384, y: 3.4294672, z: 0}
     Delay: 0
-  - PathElementPosition: {x: 6.359682, y: -0.48643494, z: 0}
-    Delay: 0
-  - PathElementPosition: {x: 16.80461, y: -0.4642086, z: 0}
-    Delay: 0
-  - PathElementPosition: {x: 16.70385, y: 5.4681263, z: 0}
-    Delay: 0
-  - PathElementPosition: {x: 20.490591, y: 5.46506, z: 0}
+  - PathElementPosition: {x: 21.38219, y: 5.0514317, z: 0}
     Delay: 0
   ReferenceMMPath: {fileID: 0}
   AbsoluteReferencePath: 0
