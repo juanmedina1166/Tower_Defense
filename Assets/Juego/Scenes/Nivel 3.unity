@@ -11202,8 +11202,13 @@ MonoBehaviour:
     ruta: {fileID: 1675283314}
   - tiempoSalida: 15
     cantidad: 7
-    prefab: {fileID: 1561694053617324, guid: 2a2a535b3c27a86439a7f760532fad45, type: 3}
+    prefab: {fileID: 6311937572946013165, guid: ec4bf1d61dc1a2246bf027cb9fb8c481,
+      type: 3}
     ruta: {fileID: 1509456631}
+  - tiempoSalida: 25
+    cantidad: 6
+    prefab: {fileID: 1561694053617324, guid: 2a2a535b3c27a86439a7f760532fad45, type: 3}
+    ruta: {fileID: 6359009}
   tiempo_entre_olas: 40
   PuedeAgregarButton: 0
 --- !u!4 &1611048998 stripped
