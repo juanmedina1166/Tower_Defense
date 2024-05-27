@@ -4339,8 +4339,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AutomaticallyUnparentOnAwake: 1
   TargetFrameRate: 300
-  MaximumLives: 20
-  CurrentLives: 20
+  MaximumLives: 3
+  CurrentLives: 3
   GameOverScene: GameOver
   Points: 0
   PauseGameWhenInventoryOpens: 1
@@ -5873,7 +5873,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 808280636}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.239287, y: 1.0536665, z: -29.74872}
+  m_LocalPosition: {x: 3.239287, y: 1.0536665, z: 0}
   m_LocalScale: {x: 2.8453207, y: 2.8453207, z: 2.8453207}
   m_ConstrainProportionsScale: 0
   m_Children:

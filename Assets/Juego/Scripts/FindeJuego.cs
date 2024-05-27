@@ -13,7 +13,7 @@ public class FindeJuego : MonoBehaviour
     {
         if (GameManager.Instance.CurrentLives <= 0) 
         {
-            SceneManager.LoadScene("Game Over");
+            MMSceneLoadingManager.LoadScene("Game Over");
         }
         
     }
