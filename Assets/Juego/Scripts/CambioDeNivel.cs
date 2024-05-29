@@ -19,6 +19,7 @@ public class CambioDeNivel : MonoBehaviour
 
     public void CambioNivel()
     {
-
+        int nivelActual = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(nivelActual + 1);
     }
 }
