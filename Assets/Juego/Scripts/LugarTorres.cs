@@ -15,4 +15,30 @@ public class LugarTorres : MonoBehaviour
     {
         
     }
+
+    public GameObject Torres; // Prefab de la torre que se va a colocar
+
+    private void OnMouseDown()
+    {
+        if (Torres != null && !EstaOcupado())
+        {
+            // Coloca la torre en la posición del lugar de construcción
+            Instantiate(Torres, transform.position, Quaternion.identity);
+            MarkAsOcupado();
+        }
+    }
+
+    private bool ocupado = false;
+
+    // Verifica si el lugar de construcción ya está ocupado
+    public bool EstaOcupado()
+    {
+        return ocupado;
+    }
+
+    // Marca el lugar de construcción como ocupado
+    public void MarkAsOcupado()
+    {
+        ocupado = true;
+    }
 }
