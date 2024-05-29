@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CambioDeNivel : MonoBehaviour
 {
@@ -14,5 +15,10 @@ public class CambioDeNivel : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void CambioNivel()
+    {
+
     }
 }
