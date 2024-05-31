@@ -2,23 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using MoreMountains.TopDownEngine;
+using MoreMountains.Tools;
+
 
 
 public class MenuInicial : MonoBehaviour
 {
     public void Jugar()
     {
-        SceneManager.LoadScene("Nivel 1");
+        MMSceneLoadingManager.LoadScene("Nivel 1");
 
     }
     public void Instrucciones()
     {
-        SceneManager.LoadScene("Instrucciones");
+        MMSceneLoadingManager.LoadScene("Instrucciones");
 
     }
     public void Creditos()
     {
-        SceneManager.LoadScene("Creditos");
+        MMSceneLoadingManager.LoadScene("Creditos");
 
     }
     public void Salir()
