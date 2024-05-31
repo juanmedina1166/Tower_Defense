@@ -32,3 +32,20 @@ A lo largo del juego, los jugadores experimentarán la lucha épica por la super
 - Implementacion de botones y programacion de la navegacion - Katheryn Ramirez Chima y Juan Esteban Medina
 - Actualizacion del diagrama de clases - Katheryn Ramirez Chima
 - Actualizacion del README: Juan Jose Becerra
+
+# Modificaciones Entrega 3
+- Creacion de los 3 mapas: Juan Esteban Medina
+- Organizacion de oleadas y rutas: Juan Esteban Medina y Katheryn Ramirez Chima
+- Creación de diseños de Enemigos: Juan Jose Becerra
+- Actualizacion del diagrama de clases: Katheryn Ramirez Chima
+
+## Cambios de la entrega 3
+ - Solucion a carga infinta al perder el nivel
+ - Solucion al problema para visualizar los fondos de los niveles
+ 
+ 
+# Modificaciones Entrega 4
+- Creación y diseño de Script de Cambio de Nivel: Juan Esteban Medina y Katheryn Ramirez Chima
+- Organizacion de ubicacion por defectos de Torres: Juan Esteban Medina
+- Finalizacion de el diagrama de clases: Katheryn Ramirez Chima
+- Aportacion en el repositorio: Juan Esteban Medina y Katheryn Ramirez Chima
