@@ -48,4 +48,5 @@ A lo largo del juego, los jugadores experimentarán la lucha épica por la super
 - Creación y diseño de Script de Cambio de Nivel: Juan Esteban Medina y Katheryn Ramirez Chima
 - Organizacion de ubicacion por defectos de Torres: Juan Esteban Medina
 - Finalizacion de el diagrama de clases: Katheryn Ramirez Chima
+- Modificacion al README: Juan Esteban Medina
 - Aportacion en el repositorio: Juan Esteban Medina y Katheryn Ramirez Chima
