@@ -49,3 +49,4 @@ A lo largo del juego, los jugadores experimentarán la lucha épica por la super
 - Finalizacion de el diagrama de clases: Katheryn Ramirez Chima
 - Modificacion al README: Juan Esteban Medina y Katheryn Ramírez 
 - Aportacion en el repositorio: Juan Esteban Medina y Katheryn Ramirez Chima
+- Actualización escena créditos e instrucciones 
