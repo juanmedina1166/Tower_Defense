@@ -2,7 +2,6 @@
 
 ## Integrantes
 - Katheryn Ramírez Chima
-- Juan José Becerra Socha
 - Juan Esteban Medina Velasquez
 
 ## Historia
