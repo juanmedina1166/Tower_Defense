@@ -30,7 +30,6 @@ A lo largo del juego, los jugadores experimentarán la lucha épica por la super
 - Creacion e implementacion de parte grafica: Fondos y Títulos - Juan Esteban Medina
 - Implementacion de botones y programacion de la navegacion - Katheryn Ramirez Chima y Juan Esteban Medina
 - Actualizacion del diagrama de clases - Katheryn Ramirez Chima
-- Actualizacion del README: Juan Jose Becerra
 
 # Modificaciones Entrega 3
 - Creacion de los 3 mapas: Juan Esteban Medina
