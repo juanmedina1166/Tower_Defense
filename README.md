@@ -40,7 +40,7 @@ A lo largo del juego, los jugadores experimentarán la lucha épica por la super
 - Actualizacion del diagrama de clases: Katheryn Ramirez Chima
 
 ## Cambios de la entrega 3
- - Solucion a carga infinta al perder el nivel
+ - Solucion a carga infinta al perder el nivel al corregir el script
  - Solucion al problema para visualizar los fondos de los niveles
  
  
@@ -48,5 +48,5 @@ A lo largo del juego, los jugadores experimentarán la lucha épica por la super
 - Creación y diseño de Script de Cambio de Nivel: Juan Esteban Medina y Katheryn Ramirez Chima
 - Organizacion de ubicacion por defectos de Torres: Juan Esteban Medina
 - Finalizacion de el diagrama de clases: Katheryn Ramirez Chima
-- Modificacion al README: Juan Esteban Medina
+- Modificacion al README: Juan Esteban Medina y Katheryn Ramírez 
 - Aportacion en el repositorio: Juan Esteban Medina y Katheryn Ramirez Chima
